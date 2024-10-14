@@ -1,0 +1,47 @@
+# On the Maximum Values in Collatz Sequences and Their Factorization Properties
+
+## Abstract
+
+This paper examines the properties of maximum values reached in Collatz sequences, particularly focusing on their prime factorization. We propose that these maximum values are always divisible by 4 and contain at least one additional prime factor. Furthermore, we explore the relationship between the initial values and the maximum values in Collatz sequences.
+
+## 1. Introduction
+
+The Collatz conjecture, also known as the 3n+1 problem, is a well-known unsolved problem in mathematics. For any positive integer n, the Collatz function C(n) is defined as:
+
+C(n) = {
+    n/2     if n is even
+    3n + 1  if n is odd
+
+The Collatz sequence for a starting number n is the iterated application of this function until the sequence reaches 1 (if it does).
+
+## 2. Definitions
+
+**Definition 1.** Let M(n) be the maximum value reached in the Collatz sequence starting with n.
+
+**Definition 2.** A "maximum reaching operation" is the application of the 3n+1 step that results in M(n).
+
+## 3. Main Propositions
+
+**Proposition 1.** For any starting number n, the prime factorization of M(n) always includes a factor of 4 and at least one additional prime factor.
+
+**Proposition 2.** There exists a finite number of 3n+1 operations that, when applied to certain natural numbers, result in values that coincide with M(n) for some n.
+
+**Proposition 3.** In the Collatz mapping, the 3n+1 operation can be applied an unlimited but finite number of times.
+
+**Proposition 4.** The Collatz mapping continues until M(n) is reached through the application of 3n+1 operations.
+
+## 4. Discussion
+
+The propositions presented here offer insights into the structure of Collatz sequences, particularly regarding their maximum values. Proposition 1 suggests a specific form for these maximum values, implying that they are always divisible by 4 and are not powers of 2. This could provide a useful constraint in analyzing the behavior of Collatz sequences.
+
+Proposition 2 indicates that there is a connection between the 3n+1 operation and the generation of maximum values in Collatz sequences. This relationship could potentially be exploited to identify patterns or properties of numbers that lead to particularly high maximum values.
+
+Propositions 3 and 4 describe the process of the Collatz mapping, emphasizing that while the number of 3n+1 operations is unbounded, it is finite for any given starting number, and the process continues until the maximum value is reached.
+
+## 5. Conclusion
+
+These propositions, if proven, would provide significant insights into the structure and behavior of Collatz sequences. They suggest specific properties of the maximum values reached in these sequences and describe the process by which these maximum values are attained. Further research is needed to formally prove these propositions and explore their implications for the Collatz conjecture as a whole.
+
+## References
+
+[To be added]
