@@ -1,0 +1,43 @@
+# On the Maximum Values in Collatz Sequences and Their Factorization Properties
+
+[前半部分は省略]
+
+## 5. The Introduction of New Prime Factors and Quasi-Randomness
+
+**Proposition 5.** The 3n+1 operation in the Collatz sequence can introduce new prime factors that were not present in the prime factorization of the original number.
+
+**Theorem 1.** The introduction of new prime factors through the 3n+1 operation contributes to a quasi-random behavior in the Collatz sequences.
+
+### Proof Sketch:
+Let n be an odd positive integer. After applying the 3n+1 operation, we get 3n+1, which is even. This even number may contain prime factors that were not present in the original n.
+
+1. If n ≡ 1 (mod 3), then 3n+1 ≡ 4 (mod 9), introducing a factor of 2^2.
+2. If n ≡ 2 (mod 3), then 3n+1 ≡ 7 (mod 9), potentially introducing new prime factors.
+
+The introduction of these new factors, especially in case 2, can be seen as injecting an element of unpredictability into the sequence.
+
+### Discussion:
+The introduction of new prime factors through the 3n+1 operation is analogous to selecting random numbers in each step of the sequence. This quasi-random behavior contributes significantly to the complexity and unpredictability of Collatz sequences:
+
+1. **Unpredictable Growth:** New prime factors can cause unexpected growth in the sequence, making it difficult to predict the maximum value M(n).
+
+2. **Varied Trajectories:** Even numbers with similar factorizations can lead to vastly different trajectories due to the introduction of new primes.
+
+3. **Resistance to Patterning:** The quasi-random introduction of new factors resists attempts to find simple patterns or closed-form solutions for Collatz sequences.
+
+4. **Computational Irreducibility:** The necessity of performing the 3n+1 operation to discover new factors suggests that Collatz sequences might be computationally irreducible, meaning there may be no shortcut to determine the sequence's behavior without actually computing it.
+
+5. **Connection to Chaos Theory:** The sensitivity to initial conditions and the quasi-random behavior are reminiscent of chaotic systems, suggesting possible connections between the Collatz problem and chaos theory.
+
+This quasi-random aspect of the Collatz problem helps explain why, despite its simple formulation, it has resisted mathematical analysis for so long. It also suggests that approaches from probability theory and statistical mechanics might be fruitful in analyzing the overall behavior of Collatz sequences, even if they cannot predict individual trajectories.
+
+## 6. Conclusion
+
+The introduction of new prime factors through the 3n+1 operation adds a layer of quasi-randomness to the Collatz problem, contributing to its complexity and resistance to simple analysis. This aspect, combined with our earlier observations about the properties of maximum values in Collatz sequences, paints a picture of a deceptively simple problem with deep mathematical implications.
+
+Further research could focus on:
+1. Quantifying the probability distribution of new prime factors introduced by the 3n+1 operation.
+2. Investigating potential connections between the Collatz problem and other areas of mathematics that deal with deterministic chaos.
+3. Exploring whether this quasi-random behavior can be leveraged to prove or disprove the Collatz conjecture.
+
+These insights not only deepen our understanding of the Collatz problem but also highlight its connections to broader mathematical concepts, reinforcing its significance in number theory and dynamical systems.
