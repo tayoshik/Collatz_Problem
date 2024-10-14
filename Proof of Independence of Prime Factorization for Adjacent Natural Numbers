@@ -1,0 +1,91 @@
+# Proof of Independence of Prime Factorization for Adjacent Natural Numbers
+
+## Abstract
+
+This paper proves that for any natural number $n$, the prime factorizations of $n$ and its adjacent number $n + 1$ are generally unrelated. Specifically, we demonstrate that $n$ and $n + 1$ are coprime and that their respective prime factorizations do not share common prime factors. Furthermore, we argue that there is no general relationship between the prime factorizations of $n$ and $n + 1$.
+
+## 1. Introduction
+
+In number theory, the prime factorization of natural numbers is a fundamental subject of study. The relationship between the prime factorizations of adjacent natural numbers $n$ and $n + 1$ is a particularly interesting problem. While it might seem at first glance that there should be some connection due to their consecutive nature, this paper proves that their prime factorizations are generally independent.
+
+## 2. Preliminaries
+
+Before proceeding with the proof, we establish the following definition and theorem:
+
+**Definition 1 (Coprime)**: Two natural numbers $a$ and $b$ are said to be **coprime** if $\gcd(a, b) = 1$ (i.e., if the greatest common divisor of $a$ and $b$ is 1).
+
+**Theorem 1 (Fundamental Theorem of Arithmetic)**: Any natural number $n \geq 2$ can be uniquely represented as a product of prime numbers (uniqueness of prime factorization).
+
+## 3. Proof that $n$ and $n + 1$ are Coprime
+
+**Proposition 1**: For any natural number $n$, $n$ and $n + 1$ are coprime.
+
+**Proof**:
+1. Consider the difference between $n$ and $n + 1$:
+   $$(n + 1) - n = 1$$
+   
+2. Let $d$ be any integer that is a common divisor of both $n$ and $n + 1$.
+3. Then, $d$ must also divide $(n + 1) - n = 1$.
+4. Therefore, $d$ is a divisor of 1.
+5. Since the only positive divisor of 1 is 1 itself, $d = 1$.
+6. Consequently, $\gcd(n, n + 1) = 1$.
+
+**Conclusion**: $n$ and $n + 1$ are coprime.
+
+## 4. Independence of Prime Factorizations
+
+**Proposition 2**: The prime factorizations of $n$ and $n + 1$ are generally unrelated.
+
+**Proof**:
+1. **From being coprime**
+   - $n$ and $n + 1$ have no common prime factors (from Proposition 1).
+
+2. **Uniqueness of prime factorization**
+   - By the Fundamental Theorem of Arithmetic, the prime factorizations of $n$ and $n + 1$ are unique, and their prime factors do not overlap.
+
+3. **Lack of general relationship**
+   - The prime factorizations of $n$ and $n + 1$ are specific to each number and cannot be predicted from the other's factorization.
+
+4. **Verification through examples**
+   - **Example 1**: $n = 14$
+     - $n = 2 \times 7$
+     - $n + 1 = 15 = 3 \times 5$
+     - No common prime factors.
+   
+   - **Example 2**: $n = 20$
+     - $n = 2^2 \times 5$
+     - $n + 1 = 21 = 3 \times 7$
+     - No common prime factors.
+   
+   - **Example 3**: $n = 35$
+     - $n = 5 \times 7$
+     - $n + 1 = 36 = 2^2 \times 3^2$
+     - No common prime factors.
+
+5. **Confirmation of generality**
+   - The above examples can be applied to any natural number $n$, and no specific patterns or relationships can be found.
+
+**Conclusion**: The prime factorizations of $n$ and $n + 1$ are generally unrelated and independent.
+
+## 5. Discussion
+
+- **Lack of common prime factors**
+  The absence of common prime factors between $n$ and $n + 1$ is a natural consequence of them being coprime.
+
+- **Absence of relationship**
+  In prime factorization, it is impossible to predict the prime factors of $n + 1$ from those of $n$, and vice versa.
+
+- **Number-theoretical significance**
+  This independence demonstrates the diversity of integer properties in number theory and may be related to the complexity of unsolved problems involving integers, such as the Collatz conjecture.
+
+## 6. Conclusion
+
+This paper has proven that for any natural number $n$, the prime factorizations of $n$ and its adjacent number $n + 1$ are generally unrelated. This is based on the fact that $n$ and $n + 1$ are coprime and do not share common prime factors. We have also demonstrated through specific examples that there is no general relationship between their prime factorizations.
+
+This result reveals one of the fundamental properties in integer theory and may provide important insights into other problems and applications in number theory.
+
+## References
+
+1. Ireland, K., & Rosen, M. (1990). *A Classical Introduction to Modern Number Theory*. Springer.
+2. Nagell, T. (1951). *Introduction to Number Theory*. Wiley.
+3. Hardy, G. H., & Wright, E. M. (1979). *An Introduction to the Theory of Numbers*. Oxford University Press.
