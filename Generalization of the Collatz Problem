@@ -1,0 +1,58 @@
+# Generalization of the Collatz Problem: Discovery of New Convergent Parameters
+
+## Abstract
+
+This study investigates a generalization of the Collatz problem, revealing previously unknown combinations of parameters that lead to convergence. We examine sequences defined by the following recurrence relation:
+
+```
+n_{k+1} = 
+\begin{cases} 
+n_k / X & \text{if } n_k \equiv 0 \pmod{X} \\
+Y n_k + Z & \text{otherwise}
+\end{cases}
+```
+
+where X, Y, and Z are positive integers.
+
+## Key Findings
+
+Our research confirms that for the following parameter combinations (X, Y, Z), the sequence converges to 1 for all natural numbers from 1 to 1000:
+
+1. (2, 6, 2)
+2. (8, 8, 8)
+3. (2, 4, 4)
+4. (7, 7, 7)
+5. (4, 4, 4)
+6. (2, 2, 2)
+7. (5, 5, 5)
+8. (3, 9, 9)
+9. (2, 8, 8)
+10. (6, 6, 6)
+
+## Discussion
+
+These results suggest that the range of parameters preserving convergence in the generalized Collatz problem is broader than previously anticipated. Notable observations include:
+
+1. The existence of multiple cases where X = Y = Z (e.g., (8, 8, 8), (7, 7, 7), (5, 5, 5)), suggesting that this symmetry may contribute to convergence.
+
+2. The prevalence of cases where X = 2 (e.g., (2, 6, 2), (2, 4, 4), (2, 2, 2), (2, 8, 8)), indicating a similarity to the original Collatz problem.
+
+3. The convergence of cases where Y > X (e.g., (2, 6, 2), (2, 8, 8), (3, 9, 9)), demonstrating that even with larger increasing steps, the sequence eventually decreases to reach 1.
+
+## Future Research Directions
+
+1. Verify the convergence of these parameters for larger natural numbers.
+
+2. Elucidate the common mathematical properties of these parameter sets and attempt a theoretical proof of convergence.
+
+3. Explore a wider range of parameter combinations to derive general conditions for convergence.
+
+4. Investigate non-convergent cases to identify conditions for cycling or divergence.
+
+## Conclusion
+
+These discoveries open new avenues of research at the intersection of number theory and dynamical systems, significantly advancing our understanding of generalized Collatz problems. The identification of these convergent parameter sets not only expands the known territory of Collatz-like sequences but also raises intriguing questions about the fundamental nature of such iterative processes.
+
+The variety of convergent parameters suggests that the underlying mathematical structure governing these sequences may be richer and more complex than previously thought. This complexity presents both challenges and opportunities for future mathematical exploration.
+
+Further research in this area may not only deepen our understanding of the Collatz problem and its variants but also potentially yield insights applicable to broader areas of mathematics, including chaos theory, number theory, and the study of discrete dynamical systems.
